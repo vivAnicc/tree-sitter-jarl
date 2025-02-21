@@ -1,0 +1,40 @@
+{
+  "$schema": "https://tree-sitter.github.io/tree-sitter/assets/schemas/config.schema.json",
+  "grammars": [
+    {
+      "name": "jarl",
+      "camelcase": "Jarl",
+      "title": "Jarl",
+      "scope": "source.jarl",
+      "file-types": [
+        "jarl"
+      ],
+      "injection-regex": "^jarl$",
+      "class-name": "TreeSitterJarl"
+    }
+  ],
+  "metadata": {
+    "version": "0.1.0",
+    "license": "MIT",
+    "description": "Parser for Jarl syntax",
+    "authors": [
+      {
+        "name": "Nick",
+        "email": "nicc.gemm@gmail.com",
+        "url": "https://github.com/vivAnicc"
+      }
+    ],
+    "links": {
+      "repository": "https://github.com/vivAnicc/tree-sitter-jarl"
+    }
+  },
+  "bindings": {
+    "c": true,
+    "go": true,
+    "node": true,
+    "python": true,
+    "rust": true,
+    "swift": true,
+    "zig": false
+  }
+}
